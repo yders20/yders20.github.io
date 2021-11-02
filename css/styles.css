@@ -1,13 +1,43 @@
-body {
-  background: #a53f04;
+header {
+  padding-top: 15px;
+  background-image: url("../imgs/landing.png");
+  background-size: cover;
+  background-position: center;
+  height: 1400px;
 }
 
-header {
-  height: 200px;
-  padding-top: 15px;
+header #landing-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  width: 430px;
+  height: 770px;
+  padding-left: 5rem;
+  text-align: left;
+}
+
+header #landing-info a {
+  display: inline-block;
+  text-decoration: none;
+  color: orange;
+  padding: 3px 20px;
+  border-radius: 1.5em;
+  background: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 header nav {
+  padding-top: 63px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -56,5 +86,11 @@ header nav ul li.lang a {
 
 header nav ul li .logo-holder .logo img {
   padding-right: 40px;
+}
+
+.sect {
+  height: 400px;
+  width: 100%;
+  background: white;
 }
 /*# sourceMappingURL=styles.css.map */

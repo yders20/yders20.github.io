@@ -1,12 +1,37 @@
 $primary: orange;
 $secondary: black;
 body {
-  background: rgb(165, 63, 4);
+  // background: rgb(165, 63, 4);
 }
 header {
-  height: 200px;
   padding-top: 15px;
+  background-image: url("../imgs/landing.png");
+  background-size: cover;
+  background-position: center;
+  height: 1400px;
+
+  #landing-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    width: 430px;
+    height: 770px;
+    padding-left: 5rem;
+    text-align: left;
+    a {
+      display: inline-block;
+      text-decoration: none;
+      color: $primary;
+      padding: 3px 20px;
+      border-radius: 1.5em;
+      background: white;
+      width: fit-content;
+    }
+  }
+
   nav {
+    padding-top: 63px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,9 +63,9 @@ header {
           }
         }
         &.lang {
-            a {
-                margin-left: 40px;
-              }
+          a {
+            margin-left: 40px;
+          }
         }
         .logo-holder {
           .logo {
@@ -52,4 +77,10 @@ header {
       }
     }
   }
+}
+
+.sect {
+  height: 400px;
+  width: 100%;
+  background: white;
 }
