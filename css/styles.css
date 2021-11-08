@@ -46,7 +46,7 @@ header #landing-info {
 header #landing-info a {
   display: inline-block;
   text-decoration: none;
-  color: orange;
+  color: #F57E1D;
   padding: 3px 20px;
   border-radius: 1.5em;
   background: white;
@@ -82,7 +82,7 @@ header nav ul li {
 header nav ul li a {
   display: inline-block;
   text-decoration: none;
-  color: orange;
+  color: #F57E1D;
   padding: 3px 20px;
   border-radius: 1.5em;
   background: white;
@@ -108,8 +108,58 @@ header nav ul li .logo-holder .logo img {
 }
 
 .sect {
-  height: 400px;
+  height: 500px;
   width: 100%;
   background: white;
+}
+
+#features {
+  padding-top: 180px;
+  padding-bottom: 180px;
+  position: relative;
+}
+
+#programs {
+  padding-top: 180px;
+  padding-bottom: 180px;
+  position: relative;
+}
+
+.feature-card {
+  height: 400px;
+  border-radius: 55px;
+  background: #F57E1D;
+  color: white;
+  margin: 10px;
+}
+
+.feature-card .card-info {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sectionTitle {
+  font-size: 150px;
+}
+
+.sectionTitle .sectionSemi {
+  color: #F57E1D;
+}
+
+.sectionBackground {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -420px;
+  /* Half the height */
+  margin-left: -837px;
+  /* Half the width */
+  z-index: -1;
 }
 /*# sourceMappingURL=styles.css.map */
