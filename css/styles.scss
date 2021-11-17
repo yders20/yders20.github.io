@@ -117,6 +117,16 @@ header {
   // background-size: cover;
   // background-position: center;
 }
+
+#tutors {
+  padding-top: 180px;
+  padding-bottom: 180px;
+  position: relative; // This needs to be relative to contain the abs image inside it.
+  // background-image: url("../imgs/feat_path.png");
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-position: center;
+}
 .feature-card {
   // width: 460px;
   height: 400px;
@@ -139,11 +149,24 @@ header {
   }
 }
 
-.sectionBackground {
+.sectionLightTitle {
+  font-size: 150px;
+  color: white;
+  .sectionSemi {
+    color: $primary;
+  }
+}
+
+.sectionBackground{
   position: absolute;
   top: 50%;
   left: 50%;
   margin-top: -420px; /* Half the height */
   margin-left: -837px; /* Half the width */
   z-index: -1;
+}
+
+.tutorInfo{
+  color: white;
+  text-align: left;
 }
