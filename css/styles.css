@@ -131,6 +131,12 @@ header nav ul li .logo-holder .logo img {
   position: relative;
 }
 
+#stories {
+  padding-top: 180px;
+  padding-bottom: 180px;
+  position: relative;
+}
+
 .feature-card {
   height: 400px;
   border-radius: 55px;
@@ -181,5 +187,11 @@ header nav ul li .logo-holder .logo img {
 .tutorInfo {
   color: white;
   text-align: left;
+}
+
+.story {
+  color: white;
+  text-align: left;
+  margin: auto;
 }
 /*# sourceMappingURL=styles.css.map */

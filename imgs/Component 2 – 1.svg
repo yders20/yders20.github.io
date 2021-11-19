@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="508.908" height="450.367" viewBox="0 0 508.908 450.367">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.03" y1="-1.358" x2="1.606" y2="4.873" gradientUnits="objectBoundingBox">
+      <stop offset="0.063" stop-color="#ff7208"/>
+      <stop offset="1" stop-color="#e82c00"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-0.567" y1="-3.718" x2="1.009" y2="2.513" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="0" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient"/>
+    <filter id="Ellipse_28" x="58.541" y="0" width="450.367" height="450.367" filterUnits="userSpaceOnUse">
+      <feOffset dx="4.243" dy="4.243" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.97" result="blur"/>
+      <feFlood flood-color="#e26b00" flood-opacity="0.541"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Component_2_1" data-name="Component 2 – 1" transform="translate(0 16.668)">
+    <g id="Component_1_1" data-name="Component 1 – 1">
+      <circle id="Ellipse_25" data-name="Ellipse 25" cx="143.61" cy="143.61" r="143.61" transform="translate(8.356 102.755)" fill="#eaeaea"/>
+      <circle id="Ellipse_26" data-name="Ellipse 26" cx="12.071" cy="12.071" r="12.071" transform="translate(0 133.396)" opacity="0.9" fill="url(#linear-gradient)"/>
+      <circle id="Ellipse_27" data-name="Ellipse 27" cx="12.071" cy="12.071" r="12.071" transform="translate(12.071 190.964)" opacity="0.9" fill="url(#linear-gradient-2)"/>
+      <g transform="matrix(1, 0, 0, 1, 0, -16.67)" filter="url(#Ellipse_28)">
+        <circle id="Ellipse_28-2" data-name="Ellipse 28" cx="204.273" cy="204.273" r="204.273" transform="translate(75.21 16.67)" opacity="0.9" fill="url(#linear-gradient-3)"/>
+      </g>
+    </g>
+    <text id="Success_story" data-name="Success
+story" transform="translate(283.207 194.292)" fill="#fff" font-size="69.467" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="-145.22" y="0">Success</tspan><tspan x="-89.612" y="83.36">story</tspan></text>
+  </g>
+</svg>
