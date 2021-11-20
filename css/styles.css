@@ -46,13 +46,40 @@ header #landing-info {
 header #landing-info a {
   display: inline-block;
   text-decoration: none;
-  color: #F57E1D;
+  color: #f57e1d;
   padding: 3px 20px;
   border-radius: 1.5em;
   background: white;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.normal-element {
+  padding: 3px 20px;
+  border-radius: 1.5em;
+  color: white !important;
+  margin: 0 10px;
+  font-size: xx-large;
+}
+
+.media-icon {
+  margin-left: 14px;
+  border-radius: 1.5em;
+  color: white !important;
+  font-size: xx-large;
+  text-decoration: none;
+}
+
+.active {
+  background: black;
+  display: inline-block;
+  text-decoration: none;
+  color: white !important;
+  background: black !important;
+  padding: 4px 10px;
+  border-radius: 10px;
+  font-size: xx-large;
 }
 
 .sect {
@@ -74,7 +101,7 @@ header #landing-info a {
 }
 
 #tutors {
-  padding-top: 180px;
+  padding-top: 220px;
   padding-bottom: 180px;
   position: relative;
 }
@@ -88,7 +115,7 @@ header #landing-info a {
 .feature-card {
   height: 400px;
   border-radius: 55px;
-  background: #F57E1D;
+  background: #f57e1d;
   color: white;
   margin: 10px;
 }
@@ -109,7 +136,7 @@ header #landing-info a {
 }
 
 .sectionTitle .sectionSemi {
-  color: #F57E1D;
+  color: #f57e1d;
 }
 
 .sectionLightTitle {
@@ -118,7 +145,7 @@ header #landing-info a {
 }
 
 .sectionLightTitle .sectionSemi {
-  color: #F57E1D;
+  color: #f57e1d;
 }
 
 .sectionBackground {
@@ -141,5 +168,12 @@ header #landing-info a {
   color: white;
   text-align: left;
   margin: auto;
+}
+
+.bg-img {
+  background-image: url("../imgs/Group 358.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 /*# sourceMappingURL=styles.css.map */
