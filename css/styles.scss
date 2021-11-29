@@ -1,5 +1,16 @@
 $primary: #f57e1d;
 $secondary: black;
+
+@font-face {
+  font-family: 'my-font';
+  src: url('../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf'); /* IE9 Compat Modes */
+  src: url('../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf') format('woff'), /* Modern Browsers */
+  url('../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf') format('svg'); /* Legacy iOS */
+}
+
+
 html {
   -ms-overflow-style: none; /* Internet Explorer 10+ */
   scrollbar-width: none; /* Firefox */
@@ -14,9 +25,11 @@ body {
   height: 100%;
   margin: 0px;
   padding: 0px;
+  font-family: my-font;
 }
 header {
-  padding-top: 15px;
+  position: relative;
+  padding-top: 30px;
   background-image: url("../imgs/full-landing.png");
   background-size: cover;
   background-position: center;
@@ -80,7 +93,7 @@ header {
   display: inline-block;
   text-decoration: none;
   color: white !important;
-  background: black !important;
+  background: rgb(255, 175, 70) !important;
   padding: 4px 10px;
   border-radius: 10px;
   font-size: xx-large;

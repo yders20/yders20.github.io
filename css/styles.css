@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'my-font';
+  src: url("../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf");
+  /* IE9 Compat Modes */
+  src: url("../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf") format("embedded-opentype"), url("../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf") format("woff"), url("../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf") format("truetype"), url("../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf") format("svg");
+  /* Legacy iOS */
+}
+
 html {
   -ms-overflow-style: none;
   /* Internet Explorer 10+ */
@@ -15,10 +23,12 @@ body {
   height: 100%;
   margin: 0px;
   padding: 0px;
+  font-family: my-font;
 }
 
 header {
-  padding-top: 15px;
+  position: relative;
+  padding-top: 30px;
   background-image: url("../imgs/full-landing.png");
   background-size: cover;
   background-position: center;
@@ -76,7 +86,7 @@ header #landing-info a {
   display: inline-block;
   text-decoration: none;
   color: white !important;
-  background: black !important;
+  background: #ffaf46 !important;
   padding: 4px 10px;
   border-radius: 10px;
   font-size: xx-large;
