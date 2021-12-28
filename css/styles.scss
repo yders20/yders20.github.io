@@ -2,15 +2,20 @@ $primary: #f57e1d;
 $secondary: black;
 
 @font-face {
-  font-family: 'my-font';
-  src: url('../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf'); /* IE9 Compat Modes */
-  src: url('../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf') format('embedded-opentype'), /* IE6-IE8 */
-  url('../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf') format('woff'), /* Modern Browsers */
-  url('../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
-  url('../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf') format('svg'); /* Legacy iOS */
+  font-family: "my-font";
+  src: url("../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf"); /* IE9 Compat Modes */
+  src: url("../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf")
+      format("woff"),
+    /* Modern Browsers */
+      url("../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf") format("svg"); /* Legacy iOS */
 }
 
-html,body{
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -59,12 +64,12 @@ header {
     }
   }
 
-  #slogan{
+  #slogan {
     font-weight: bold;
     max-width: 40rem;
   }
 
-  #slogan-info{
+  #slogan-info {
     font-weight: bold;
     max-width: 30rem;
   }
@@ -85,7 +90,7 @@ header {
 //     }
 //   }
 // }
-.normal-element{
+.normal-element {
   padding: 3px 20px;
   border-radius: 1.5em;
   color: white !important;
@@ -93,7 +98,7 @@ header {
   font-size: xx-large;
 }
 
-.media-icon{
+.media-icon {
   margin-left: 14px;
   border-radius: 1.5em;
   color: white !important;
@@ -155,24 +160,50 @@ header {
 }
 .feature-card {
   // width: 460px;
-  height: 400px;
+  height: 600px;
+  max-width: 530px;
   border-radius: 55px;
   background: $primary;
   color: white;
   margin: 10px;
+  background: linear-gradient(180deg, #ffffff 50%, $primary 50%);
+  position: relative;
+
+  .card-header {
+    padding-top: 80px;
+    color: $primary;
+    background-color: white;
+    border: none;
+    font-weight: bolder;
+  }
+
+  .feature-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
   .card-info {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+    font-size: x-large;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 10%;
+    color: white;
   }
 }
 
 .sectionTitle {
   font-size: 150px;
+  font-weight: 900;
   .sectionSemi {
     color: $primary;
   }
+}
+
+.subSectionTitle {
+  color: $primary;
+  font-weight: 600;
 }
 
 .sectionLightTitle {
@@ -203,7 +234,7 @@ header {
   margin: auto;
 }
 
-.bg-img{
+.bg-img {
   background-image: url("../imgs/Group\ 358.png");
   background-size: cover;
   background-position: center;
@@ -211,13 +242,30 @@ header {
 }
 
 // Phone media queries
-@media (max-width:480px)  {
-  .action-button{
+@media (max-width: 480px) {
+  .action-button {
     margin-left: auto !important;
     margin-right: auto !important;
   }
 
-  #slogan-info{
+  #slogan-info {
     margin-bottom: 2rem;
+  }
+
+  .card-info {
+    bottom: 3% !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-info {
+    bottom: 3% !important;
+  }
+}
+
+// Large screens queries
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1700px !important;
   }
 }
