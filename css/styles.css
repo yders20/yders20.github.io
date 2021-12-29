@@ -125,6 +125,72 @@ header #slogan-info {
   position: relative;
 }
 
+#programs .program-header {
+  padding-bottom: 120px;
+  font-size: 151px;
+  font-weight: bolder;
+}
+
+#programs .programDetails .programAttribute {
+  font-size: 30px;
+  font-weight: bold;
+  color: #f57e1d;
+}
+
+#programs .programDetails .programAttributeIcon {
+  padding-bottom: 10px;
+  padding-right: 16px;
+}
+
+#programs .programAbout {
+  padding-top: 100px;
+}
+
+#programs .programAbout .programAboutHeader {
+  font-size: 90px;
+  font-weight: bolder;
+}
+
+#programs .programAbout .programAboutDetails {
+  word-wrap: break-word;
+  width: 47%;
+  margin: auto;
+  font-size: 43px;
+  font-weight: bold;
+  color: #f57e1d;
+}
+
+#programs .programComplete {
+  padding-top: 100px;
+}
+
+#programs .programComplete .benefitsContainer {
+  display: inline-block;
+  text-align: left;
+}
+
+#programs .programComplete .benefitsContainer .programBenefits {
+  color: #f57e1d;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#programs .programComplete .programCompleteHeader {
+  font-size: 66px;
+  font-weight: bolder;
+}
+
+#programs .applyButtonContainer {
+  padding-top: 100px;
+}
+
+#programs .applyImage:hover {
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+
 #tutors {
   padding-top: 220px;
   padding-bottom: 180px;

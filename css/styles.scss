@@ -1,5 +1,6 @@
 $primary: #f57e1d;
 $secondary: black;
+$enable-responsive-font-sizes: true;
 
 @font-face {
   font-family: "my-font";
@@ -137,10 +138,67 @@ header {
   padding-top: 180px;
   padding-bottom: 180px;
   position: relative; // This needs to be relative to contain the abs image inside it.
-  // background-image: url("../imgs/feat_path.png");
-  // background-repeat: no-repeat;
-  // background-size: cover;
-  // background-position: center;
+
+  .program-header {
+    padding-bottom: 120px;
+    font-size: 151px;
+    font-weight: bolder;
+  }
+
+  .programDetails {
+    .programAttribute {
+      font-size: 30px;
+      font-weight: bold;
+      color: $primary;
+    }
+
+    .programAttributeIcon {
+      padding-bottom: 10px;
+      padding-right: 16px;
+    }
+  }
+  .programAbout {
+    padding-top: 100px;
+    .programAboutHeader {
+      font-size: 90px;
+      font-weight: bolder;
+    }
+    .programAboutDetails {
+      word-wrap: break-word;
+      width: 47%;
+      margin: auto; // center the text
+      font-size: 43px;
+      font-weight: bold;
+      color: $primary;
+    }
+  }
+
+  .programComplete {
+    padding-top: 100px;
+    .benefitsContainer {
+      display: inline-block;
+      text-align: left;
+      .programBenefits {
+        color: $primary;
+        font-size: 30px;
+        font-weight: bold;
+      }
+    }
+    .programCompleteHeader {
+      font-size: 66px;
+      font-weight: bolder;
+    }
+  }
+  .applyButtonContainer {
+    padding-top: 100px;
+  }
+  .applyImage {
+    &:hover {
+      transition-duration: 0.4s;
+      -webkit-transform:  translateY(-5px);
+      transform:  translateY(-5px);
+    }
+  }
 }
 
 #tutors {
