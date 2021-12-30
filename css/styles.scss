@@ -42,6 +42,7 @@ header {
   background-image: url("../imgs/full-landing.png");
   background-size: cover;
   background-position: center;
+  background-color: #efefef;
   height: 1860px;
   // overflow-y: scroll;
 
@@ -134,7 +135,7 @@ header {
   // background-position: center;
 }
 
-#programs {
+#programs-scratch {
   padding-top: 180px;
   padding-bottom: 180px;
   position: relative; // This needs to be relative to contain the abs image inside it.
@@ -195,12 +196,96 @@ header {
   .applyImage {
     &:hover {
       transition-duration: 0.4s;
-      -webkit-transform:  translateY(-5px);
-      transform:  translateY(-5px);
+      -webkit-transform: translateY(-5px);
+      transform: translateY(-5px);
     }
   }
 }
+#journey {
+  background-color: #efefef;
+  .journeyHeader {
+    h1 {
+      font-size: 110px;
+      font-weight: bolder;
+    }
+  }
+}
+#programs-cpp {
+  padding-top: 180px;
+  padding-bottom: 180px;
+  position: relative; // This needs to be relative to contain the abs image inside it.
+  z-index: -1;
+  background-image: url("../imgs/background-curves.png");
 
+  .program-header {
+    padding-bottom: 120px;
+    font-size: 151px;
+    font-weight: bolder;
+  }
+
+  .programDetails {
+    .programAttribute {
+      font-size: 30px;
+      font-weight: bold;
+      color: $primary;
+    }
+
+    .programAttributeIcon {
+      padding-bottom: 10px;
+      padding-right: 16px;
+    }
+  }
+  .programAbout {
+    padding-top: 100px;
+    .programAboutHeader {
+      font-size: 90px;
+      font-weight: bolder;
+    }
+    .programAboutDetails {
+      word-wrap: break-word;
+      width: 47%;
+      margin: auto; // center the text
+      font-size: 43px;
+      font-weight: bold;
+      color: $primary;
+    }
+  }
+
+  .programComplete {
+    padding-top: 100px;
+    .benefitsContainer {
+      display: inline-block;
+      text-align: left;
+      .programBenefits {
+        color: $primary;
+        font-size: 30px;
+        font-weight: bold;
+      }
+    }
+    .programCompleteHeader {
+      font-size: 66px;
+      font-weight: bolder;
+    }
+  }
+  .applyButtonContainer {
+    padding-top: 100px;
+  }
+  .applyImage {
+    &:hover {
+      transition-duration: 0.4s;
+      -webkit-transform: translateY(-5px);
+      transform: translateY(-5px);
+    }
+  }
+}
+.absolute-layer {
+  position: relative;
+  .progress-image-container {
+    position: absolute;
+    top: 71vh;
+    left: 0;
+  }
+}
 #tutors {
   padding-top: 220px;
   padding-bottom: 180px;

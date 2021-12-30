@@ -37,6 +37,7 @@ header {
   background-image: url("../imgs/full-landing.png");
   background-size: cover;
   background-position: center;
+  background-color: #efefef;
   height: 1860px;
 }
 
@@ -119,39 +120,39 @@ header #slogan-info {
   position: relative;
 }
 
-#programs {
+#programs-scratch {
   padding-top: 180px;
   padding-bottom: 180px;
   position: relative;
 }
 
-#programs .program-header {
+#programs-scratch .program-header {
   padding-bottom: 120px;
   font-size: 151px;
   font-weight: bolder;
 }
 
-#programs .programDetails .programAttribute {
+#programs-scratch .programDetails .programAttribute {
   font-size: 30px;
   font-weight: bold;
   color: #f57e1d;
 }
 
-#programs .programDetails .programAttributeIcon {
+#programs-scratch .programDetails .programAttributeIcon {
   padding-bottom: 10px;
   padding-right: 16px;
 }
 
-#programs .programAbout {
+#programs-scratch .programAbout {
   padding-top: 100px;
 }
 
-#programs .programAbout .programAboutHeader {
+#programs-scratch .programAbout .programAboutHeader {
   font-size: 90px;
   font-weight: bolder;
 }
 
-#programs .programAbout .programAboutDetails {
+#programs-scratch .programAbout .programAboutDetails {
   word-wrap: break-word;
   width: 47%;
   margin: auto;
@@ -160,35 +161,128 @@ header #slogan-info {
   color: #f57e1d;
 }
 
-#programs .programComplete {
+#programs-scratch .programComplete {
   padding-top: 100px;
 }
 
-#programs .programComplete .benefitsContainer {
+#programs-scratch .programComplete .benefitsContainer {
   display: inline-block;
   text-align: left;
 }
 
-#programs .programComplete .benefitsContainer .programBenefits {
+#programs-scratch .programComplete .benefitsContainer .programBenefits {
   color: #f57e1d;
   font-size: 30px;
   font-weight: bold;
 }
 
-#programs .programComplete .programCompleteHeader {
+#programs-scratch .programComplete .programCompleteHeader {
   font-size: 66px;
   font-weight: bolder;
 }
 
-#programs .applyButtonContainer {
+#programs-scratch .applyButtonContainer {
   padding-top: 100px;
 }
 
-#programs .applyImage:hover {
+#programs-scratch .applyImage:hover {
   -webkit-transition-duration: 0.4s;
           transition-duration: 0.4s;
   -webkit-transform: translateY(-5px);
   transform: translateY(-5px);
+}
+
+#journey {
+  background-color: #efefef;
+}
+
+#journey .journeyHeader h1 {
+  font-size: 110px;
+  font-weight: bolder;
+}
+
+#programs-cpp {
+  padding-top: 180px;
+  padding-bottom: 180px;
+  position: relative;
+  z-index: -1;
+  background-image: url("../imgs/background-curves.png");
+}
+
+#programs-cpp .program-header {
+  padding-bottom: 120px;
+  font-size: 151px;
+  font-weight: bolder;
+}
+
+#programs-cpp .programDetails .programAttribute {
+  font-size: 30px;
+  font-weight: bold;
+  color: #f57e1d;
+}
+
+#programs-cpp .programDetails .programAttributeIcon {
+  padding-bottom: 10px;
+  padding-right: 16px;
+}
+
+#programs-cpp .programAbout {
+  padding-top: 100px;
+}
+
+#programs-cpp .programAbout .programAboutHeader {
+  font-size: 90px;
+  font-weight: bolder;
+}
+
+#programs-cpp .programAbout .programAboutDetails {
+  word-wrap: break-word;
+  width: 47%;
+  margin: auto;
+  font-size: 43px;
+  font-weight: bold;
+  color: #f57e1d;
+}
+
+#programs-cpp .programComplete {
+  padding-top: 100px;
+}
+
+#programs-cpp .programComplete .benefitsContainer {
+  display: inline-block;
+  text-align: left;
+}
+
+#programs-cpp .programComplete .benefitsContainer .programBenefits {
+  color: #f57e1d;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#programs-cpp .programComplete .programCompleteHeader {
+  font-size: 66px;
+  font-weight: bolder;
+}
+
+#programs-cpp .applyButtonContainer {
+  padding-top: 100px;
+}
+
+#programs-cpp .applyImage:hover {
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+
+.absolute-layer {
+  position: relative;
+}
+
+.absolute-layer .progress-image-container {
+  position: absolute;
+  top: 71vh;
+  left: 0;
 }
 
 #tutors {
