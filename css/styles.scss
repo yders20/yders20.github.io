@@ -142,7 +142,6 @@ header {
 
   .program-header {
     padding-bottom: 120px;
-    font-size: 151px;
     font-weight: bolder;
   }
 
@@ -204,10 +203,8 @@ header {
 #journey {
   background-color: #efefef;
   .journeyHeader {
-    h1 {
-      font-size: 110px;
-      font-weight: bolder;
-    }
+    font-size: 110px;
+    font-weight: bolder;
   }
 }
 #programs-cpp {
@@ -397,6 +394,19 @@ header {
 
   .card-info {
     bottom: 3% !important;
+  }
+
+  .sectionTitle {
+    font-size: 65px;
+    font-weight: bold;
+  }
+
+  #journey {
+    .journeyHeader {
+      font-size: 60px;
+      font-weight: bolder;
+      text-align: center;
+    }
   }
 }
 

@@ -128,7 +128,6 @@ header #slogan-info {
 
 #programs-scratch .program-header {
   padding-bottom: 120px;
-  font-size: 151px;
   font-weight: bolder;
 }
 
@@ -196,7 +195,7 @@ header #slogan-info {
   background-color: #efefef;
 }
 
-#journey .journeyHeader h1 {
+#journey .journeyHeader {
   font-size: 110px;
   font-weight: bolder;
 }
@@ -395,6 +394,15 @@ header #slogan-info {
   }
   .card-info {
     bottom: 3% !important;
+  }
+  .sectionTitle {
+    font-size: 65px;
+    font-weight: bold;
+  }
+  #journey .journeyHeader {
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
   }
 }
 
