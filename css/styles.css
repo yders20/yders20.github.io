@@ -120,6 +120,18 @@ header #slogan-info {
   position: relative;
 }
 
+#students {
+  padding-top: 180px;
+  padding-bottom: 180px;
+  position: relative;
+}
+
+#tutors {
+  padding-top: 180px;
+  padding-bottom: 180px;
+  position: relative;
+}
+
 #programs-scratch {
   padding-top: 180px;
   padding-bottom: 180px;

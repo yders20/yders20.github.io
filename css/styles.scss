@@ -135,6 +135,18 @@ header {
   // background-position: center;
 }
 
+#students {
+  padding-top: 180px;
+  padding-bottom: 180px;
+  position: relative; // This needs to be relative to contain the abs image inside it.
+}
+
+#tutors {
+  padding-top: 180px;
+  padding-bottom: 180px;
+  position: relative; // This needs to be relative to contain the abs image inside it.
+}
+
 #programs-scratch {
   padding-top: 180px;
   padding-bottom: 180px;
