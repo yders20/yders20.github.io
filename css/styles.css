@@ -97,7 +97,7 @@ header #slogan-info {
   text-decoration: none;
 }
 
-.active {
+.active-button {
   background: black;
   display: inline-block;
   text-decoration: none;
@@ -332,6 +332,46 @@ header #slogan-info {
   color: white;
 }
 
+.student-card {
+  height: 600px;
+  max-width: 500px;
+  border-radius: 120px;
+  background: #f57e1d;
+  color: white;
+  margin: 10px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #ffffff), color-stop(50%, #f57e1d));
+  background: linear-gradient(180deg, #ffffff 50%, #f57e1d 50%);
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.student-card .card-header {
+  padding-top: 70px;
+  color: #f57e1d;
+  background-color: white;
+  border: none;
+  font-weight: bolder;
+}
+
+.student-card .student-course {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.student-card .student-card-info {
+  font-size: 20px;
+  font-weight: bolder;
+  position: absolute;
+  bottom: 16%;
+  color: white;
+  padding: 0 65px 0 65px;
+}
+
 .sectionTitle {
   font-size: 150px;
   font-weight: 900;
@@ -382,6 +422,24 @@ header #slogan-info {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("../imgs/arrow-left.png") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("../imgs/arrow-right.png") !important;
+}
+
+.carousel-control-next-icon:after {
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  font-size: 55px;
+  color: red;
 }
 
 @media (max-width: 480px) {

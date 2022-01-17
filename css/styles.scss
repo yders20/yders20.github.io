@@ -108,7 +108,7 @@ header {
   text-decoration: none;
 }
 
-.active {
+.active-button {
   background: $secondary;
   display: inline-block;
   text-decoration: none;
@@ -333,6 +333,42 @@ header {
   }
 }
 
+.student-card {
+  // width: 460px;
+  height: 600px;
+  max-width: 500px;
+  border-radius: 120px;
+  background: $primary;
+  color: white;
+  margin: 10px;
+  background: linear-gradient(180deg, #ffffff 50%, $primary 50%);
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+
+  .card-header {
+    padding-top: 70px;
+    color: $primary;
+    background-color: white;
+    border: none;
+    font-weight: bolder;
+  }
+  .student-course {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .student-card-info {
+    font-size: 20px;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 16%;
+    color: white;
+    padding: 0 65px 0 65px;
+  }
+}
 .sectionTitle {
   font-size: 150px;
   font-weight: 900;
@@ -379,6 +415,25 @@ header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+// Overriding default arrows
+.carousel-control-prev-icon {
+  background-image: url("../imgs/arrow-left.png") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("../imgs/arrow-right.png") !important;
+}
+
+.carousel-control-next-icon:after {
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  font-size: 55px;
+  color: red;
 }
 
 // Phone media queries
