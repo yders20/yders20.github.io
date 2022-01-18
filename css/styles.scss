@@ -203,6 +203,7 @@ header {
   }
   .applyButtonContainer {
     padding-top: 100px;
+    z-index: -10;
   }
   .applyImage {
     &:hover {
@@ -219,6 +220,7 @@ header {
     font-weight: bolder;
   }
 }
+
 #programs-cpp {
   padding-top: 180px;
   padding-bottom: 180px;
@@ -303,6 +305,16 @@ header {
   // background-repeat: no-repeat;
   // background-size: cover;
   // background-position: center;
+}
+
+.tutor-name {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.tutor-info {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 #stories {
@@ -450,6 +462,9 @@ header {
 
 // Phone media queries
 @media (max-width: 480px) {
+  header {
+    background-image: url("../imgs/mobile-landing.png");
+  }
   .action-button {
     margin-left: auto !important;
     margin-right: auto !important;

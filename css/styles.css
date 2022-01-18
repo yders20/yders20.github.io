@@ -194,6 +194,7 @@ header #slogan-info {
 
 #programs-scratch .applyButtonContainer {
   padding-top: 100px;
+  z-index: -10;
 }
 
 #programs-scratch .applyImage:hover {
@@ -300,6 +301,16 @@ header #slogan-info {
   padding-top: 220px;
   padding-bottom: 180px;
   position: relative;
+}
+
+.tutor-name {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.tutor-info {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 #stories {
@@ -455,6 +466,9 @@ header #slogan-info {
 }
 
 @media (max-width: 480px) {
+  header {
+    background-image: url("../imgs/mobile-landing.png");
+  }
   .action-button {
     margin-left: auto !important;
     margin-right: auto !important;
