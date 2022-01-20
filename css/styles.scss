@@ -482,6 +482,13 @@ header {
     font-size: 65px;
     font-weight: bold;
   }
+  
+  .programAbout {
+    .programAboutDetails {
+      font-size: 24px !important;
+      width: 80% !important;
+    }
+  }
 
   #journey {
     .journeyHeader {
